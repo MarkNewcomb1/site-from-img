@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mark's Site From Img</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            html {
+                background-color: lightgrey;
+            }
+            p, h2 {
+                margin-top: 0;
+            }
+            h1 {
+                color: blue;
+                margin-left: 1%;
+            }
+            h2 {
+                font-size: 1.3em;
+                margin-left: 3%;
+            }
+            .col {
+                border: 1px dotted blue;
+                background-color: white;
+                padding: 10px;
+                float: left;
+                min-height: 320px;
+                margin: 1px;
+                padding-top: 2%;
+            }
+            .col-left {
+                width: 20%;
+            }
+            .col-left p {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+            .col-middle {
+               width: 42%; 
+               padding-left: 15px;
+               padding-right: 15px;
+            }
+            .col-right {
+                width: 14%;
+            }
+            .wrapper {
+                float: left;
+            }
+            .clear {
+                clear: both;
+            }
+            img {
+                width: 100%;
+            }
+            .copyright {
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 15px;
+                margin-left: -12%;
+            }
+            .photo-credit {
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The JPEG Image</h1>
+        <div class="wrapper">
+        <div class="col col-left">
+            
+            <p>The term "JPEG" is an acronym for the Joint Photographic Experts Group, which created the standard. The MIME media type for JPEG is image/jpeg, except in older Internet Explorer versions, which provides a MIME type of image/pjpeg when uploading JPEG images.[2] JPEG files usually have a filename extension of .jpg or .jpeg.</p>
+
+            <p>JPEG/JFIF supports a maximum image size of 65,535×65,535 pixels, hence up to 4 gigapixels (for an aspect ratio of 1:1).</p>
+            <p>(From <br /><a href="https://en.wikipedia.org/wiki/JPEG" target="_blank">https://en.wikipedia.org/wiki/JPEG)</a></p>
+
+</div>
+        <div class="col col-middle">
+            <img src="http://jpeg.org/images/jpeg-home.jpg" alt="home on the lake"/>
+            <p class="photo-credit">(Image from <a href="http://jpeg.org/images/jpeg-home.jpg" target="_blank">http://jpeg.org/images/jpeg-home.jpg)</a></p>
+            </div>
+        <div class="col col-right">
+            <h2>Other Image Types</h2>
+            <ul>
+            <li>jpg</li>
+            <li>png</li>
+            <li>gif</li>
+            <li>bmp</li>
+            </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+            <div class="clear"></div>
+        <p class="copyright">&copy; Stolen Blatantly from Wikipedia</p>
+</body>
+</html>
